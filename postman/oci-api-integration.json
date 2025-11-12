@@ -1,0 +1,22 @@
+{
+  "info": {
+    "name": "OCI API Integration Demo",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Python Function - Hello",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:5001/python/hello"
+      }
+    },
+    {
+      "name": "Node Function - Hello",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:5002/node/hello"
+      }
+    }
+  ]
+}
