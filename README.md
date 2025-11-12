@@ -1,3 +1,11 @@
+![License](https://img.shields.io/badge/License-MIT-green)
+![Build](https://img.shields.io/badge/Build-Passing-brightgreen)
+![Platform](https://img.shields.io/badge/Platform-Oracle%20Cloud-blue)
+![Language](https://img.shields.io/badge/Code-Python%20%7C%20Node.js-yellow)
+![API](https://img.shields.io/badge/API-Postman-orange)
+![Status](https://img.shields.io/badge/Status-Active-success)
+
+
 # OCI Functions + API Gateway Project
 
 This project demonstrates a real-world **Cloud Integration** pattern using
