@@ -1,6 +1,10 @@
-import io
-import json
+from flask import Flask, jsonify
 
-def handler(ctx, data: io.BytesIO = None):
-    response = {"message": "Hello from Python on OCI!"}
-    return json.dumps(response)
+app = Flask(__name__)
+
+@app.route('/python/hello', methods=['GET'])
+def hello():
+    return jsonify({"message": "Hello from Python Function! 🚀"})
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5001)
